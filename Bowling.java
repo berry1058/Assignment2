@@ -47,7 +47,7 @@ public static void main(String[] args) {
 						System.out.println(totalFrame);
 						System.out.println();
 						
-						frameTotal = frameTotal + (totalFrame);
+						frameTotal = frameTotal + (totalFrame + 2);
 						
 						System.out.println("Spare!!!!!!");
 						System.out.println(frameTotal);
@@ -56,18 +56,15 @@ public static void main(String[] args) {
 					}
 				}else{
 					
-				//	totalFrame = totalFrame + 10;
 					System.out.println("First Throw");
 					System.out.println("Strike");
 					
 					
-					frameTotal = frameTotal + totalFrame;
+					frameTotal = frameTotal + (totalFrame + 5);
 					
 					
 					System.out.println(frameTotal);
 				}
-		//		int lastFrame;
-		//		frameTotal = frameTotal + totalFrame;
 		}
 	}
 }
